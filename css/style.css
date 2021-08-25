@@ -1,0 +1,30 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  background: black;
+  color: white;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20vmin;
+  transform: translate(-50%, -50%);
+}
+
+div#ball {
+  background: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+
+  mix-blend-mode: difference;
+}
